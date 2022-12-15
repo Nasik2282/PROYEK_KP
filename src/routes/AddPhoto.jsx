@@ -25,7 +25,7 @@ const AddPhoto = () => {
   return (
     <>
       <div className="container">
-        {error && <div className="error-msg">{error}</div>}
+        {/* {error && <div className="error-msg">{error}</div>} */}
         <form className="add-form" onSubmit={addPhoto}>
           <label>
             Image Url:
