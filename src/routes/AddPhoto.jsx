@@ -5,7 +5,7 @@ const AddPhoto = () => {
   const [imageUrl, setImageUrl] = useState('');
   const [captions, setCaptions] = useState('');
   const [secret, setSecret] = useState('');
-  const [error, setError] = useState(null);
+  // const [error, setError] = useState(null);
   const navigate = useNavigate();
 
   const addPhoto = async (e) => {
