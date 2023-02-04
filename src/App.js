@@ -5,7 +5,7 @@ import Home from './routes/Home';
 import Photos from './routes/Photos';
 import AddPhoto from './routes/AddPhoto';
 import NotFound from './routes/NotFound';
-import { image3 } from '../src/routes/index.js'
+// import { image3 } from '../src/routes/index.js'
 
 const App = () => {
   return (
