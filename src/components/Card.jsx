@@ -29,7 +29,7 @@ const imageInputs = imagess[Math.floor(Math.random() * imagess.length)];
       <img className="card-image pb-4 h-48 w-full object-cover" src={photo.image4} alt={photo.id} />
       <div className="card-content text-gray-700 text-base mb-4 pl-14 text-justify">
         <div class="flex items-center">
-        <img src={imageInputs}  class=" w-12 h-12 rounded-full mr-4"></img>
+        <img src={imageInputs} alt="Profile" class=" w-12 h-12 rounded-full mr-4"></img>
         <div class="text-sm">
         <h2 class="font-bold text-xl md:text-sm text-gray-900 leading-none">{photo.profil}</h2>
         </div>
