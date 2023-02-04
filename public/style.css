@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  background-color: #0080e8;
+  color: #fff;
+  padding: 4px 4px 4px 4px;
+  border-radius: 10px;
+}
+
+/* CSS (Tailwind CSS) */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

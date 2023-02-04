@@ -70,7 +70,7 @@ const Photos = () => {
             <input type="submit" value="Search" data-testid="submit" className="form-btn" />
           </form>
         </div>
-        <div className="content">
+        <div className="content md:grid xl:grid xl:grid-cols-3 md:grid-cols-2 gap-14 ">
           {loading ? (
             <h1 style={{ width: '100%', textAlign: 'center', marginTop: '20px' }}>Loading...</h1>
           ) : (

@@ -1,0 +1,7 @@
+# memastikan baris akhir dalam file .css selalu menggunakan CRLF
+*.css eol=crlf
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.jpg binary
+*.png binary
